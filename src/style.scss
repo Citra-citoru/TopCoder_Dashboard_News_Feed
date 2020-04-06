@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "~bootstrap/scss/bootstrap";
+@import "custom";
+.borderblack{
+  border: 2px solid black;
+}
+.container{
+  font-family: 'Roboto', sans-serif;
+}
+.ln-0{
+  line-height:0;
+  margin-bottom: 0;
+  padding-bottom:0;
+}
+.round{
+  border-radius: 12px;
+}
+.p-2{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#profile-photo > img{
+  width: 64px;
+  height:64px;
+}
+p{
+  font-size: 12px;
+}
+#profile-photo{
+  border: 1px solid lightgray;
+  border-radius: 100%;
+  width:100px;
+  line-height: 100px;
+  text-align: center;
+}
+hr{
+  border: 1px solid lightgrey;
+  width: 17vw;
+  line-height: 0;
+  margin:1px;
+  padding:0;
+}
+h5{
+  font-size: 10px;
+  margin: 0;
+}
+#withdraw{
+  background-color: #9d41c8;
+}
+#ad{
+  width:100%;
+  padding: 0;
+  margin:0;
+}
